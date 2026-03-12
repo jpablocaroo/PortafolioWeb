@@ -1,0 +1,76 @@
+/* Custom Styles for Juan Pablo Caro's Portfolio */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-bottom: 2px solid #dee2e6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Skill icon animation */
+.col-md-4 i {
+    transition: transform 0.3s ease;
+}
+
+.col-md-4:hover i {
+    transform: scale(1.1);
+}
+
+/* Card styling for projects */
+.card {
+    transition: box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+footer {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+/* Hero adjustments */
+header img {
+    border: 5px solid #fff;
+}
+
+/* Cards in projects */
+#projects .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#projects .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* generic card image fix */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Button hover */
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Gradient background for tech section */
+section.bg-white.border-top {
+    background: #fefefe;
+}
